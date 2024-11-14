@@ -15,6 +15,13 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <!-- Button using onclick to redirect -->
+                    <button class="btn btn-primary" onclick="window.location.href='{{ route('student.index') }}'">
+                        View Student Data
+                    </button>
+
+                    
                 </div>
             </div>
         </div>
